@@ -1,0 +1,6 @@
+to measure the HEART Rate we will find the first peak that passes the Threshold
+and the value just goes down that Threshold and find the max value in this interval
+
+then time(s) = Ts * shifted sample
+time(m) = time(s) / 60
+Heart Rate (bpm) = 1 / time(m)
